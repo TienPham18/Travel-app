@@ -4,9 +4,9 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 pb-32 py-10 border-2 border-red-500">
+    <section className="max-container padding-container flex flex-col gap-20 pb-32 py-10 border-2 border-red-500 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
-      {/* Left side */}
+
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 border-2 border-red-500">
         <Image
           src="/camp.svg"
@@ -39,14 +39,38 @@ export default function Hero() {
             198k
             <span> Excellent Reviews</span>
           </p>
-          <div className="flex flex-col w-full gap-3 sm:flex-row">
-            <Button type="button" title="Download App" variant="btn_green" />
-            <Button
-              type="button"
-              title="How we work?"
-              icon="/play.svg"
-              variant="btn_white_green"
-            />
+        </div>
+        <div className="flex flex-col w-full gap-3 sm:flex-row">
+          <Button type="button" title="Download App" variant="btn_green" />
+          <Button
+            type="button"
+            title="How we work?"
+            icon="/play.svg"
+            variant="btn_white_green"
+          />
+        </div>
+      </div>
+
+      <div className="relative flex flex-1 items-start border-2 border-blue-500">
+        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+          <div className="flex flex-col">
+            <div className="flexBetween">
+              <p className="regular-16 text-gray-20">Location</p>
+              <Image src="/close.svg" alt="close" width={25} height={25} />
+            </div>
+            <p className="bold-20 text-white">Aguas Calientes</p>
+          </div>
+
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Distance</p>
+              <p className="bold-20 text-white">123 mi</p>
+            </div>
+
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Elevation</p>
+              <p className="bold-20 text-white">3 km</p>
+            </div>
           </div>
         </div>
       </div>
