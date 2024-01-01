@@ -67,8 +67,8 @@ export default function Camp() {
           peopleJoined="50+ Joined"
         />
       </div>
-      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6 border-2 border-green-500">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl border-2 border-pink-500">
           <h2 className="regular-24 md:regular-32 2xl-regular-64 capitalize text-white">
             <strong>Feeling Lost </strong> And Not Knowing The Way?
           </h2>
