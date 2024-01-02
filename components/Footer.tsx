@@ -61,6 +61,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
+        <div className="border bg-gray-20" />
+        <p className="regular-14 w-full text-center text-gray-30">
+          2024 Hiking | All rights reserved
+        </p>
       </div>
     </footer>
   );
